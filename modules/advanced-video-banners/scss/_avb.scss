@@ -91,11 +91,11 @@ section.avb {
 
 				h1,
 				h2 {
-					font-size: 50px;
+					font-size: 36px;
 					font-weight: bold;
 					color: var(--fl1-text);
 					padding: 0 0 10px;
-					line-height: 65px;
+					line-height: 46px;
 					
 					@include breakpoint(brotherbear) {
 						font-size: 2rem;

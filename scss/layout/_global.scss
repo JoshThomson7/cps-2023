@@ -166,7 +166,7 @@ img {
 
 	&.primary {
 		background: var(--fl1-primary);
-		color: #fff;
+		color: $dark;
 
 		&.border {
 			background: transparent;
@@ -180,7 +180,7 @@ img {
 	}
 	&.secondary {
 		background: var(--fl1-secondary);
-		color: #fff;
+		color: $dark;
 
 		&.border {
 			background: transparent;

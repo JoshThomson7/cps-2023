@@ -15,7 +15,7 @@ nav.mega-menu {
             position: relative;
             a {
                 font-size: var(--fl1-base-font-size);
-                color: #fff;
+                color: $dark;
                 font-size: var(--fl1-font-xxs);
                 font-weight: 600;
                 padding: var(--fl1-spacing-sm) var(--fl1-spacing-xs);
@@ -27,7 +27,7 @@ nav.mega-menu {
 
             &.current-page { 
                 a {
-                    color: var(--fl1-primary);
+                    color: $orange;
                 }
             }
 
@@ -40,7 +40,7 @@ nav.mega-menu {
             &.has-columns { 
                 &:hover {
                     &>a {
-                        background: #fff;
+                        background: $dark;
                         color: var(--fl1-primary);
                         box-shadow: 0 15px 27px rgb(0 0 0 / 20%);
                     }

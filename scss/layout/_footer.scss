@@ -202,7 +202,7 @@ footer {
             h5 {
                 font-size: 22px;
                 font-weight: 700;
-                color: #fff;
+                color: $dark;
                 padding-bottom: 16px;
                 display: flex;
                 align-items: center;
@@ -215,7 +215,7 @@ footer {
                 i {
                     display: none;
                     font-size: 14px;
-                    color: var(--fl1-white);
+                    color: $dark;
                     @include breakpoint(papabear) {
                         display: block;
                     }
@@ -223,11 +223,11 @@ footer {
             }
 
             p {
-                color: #fff;
+                color: $dark;
                 font-size: 14px;
                 margin-bottom: 16px;
                 a {
-                    color: #fff;
+                    color: $dark;
                     &:hover {
                         color: var(--fl1-secondary);
                     }
@@ -247,7 +247,7 @@ footer {
                     line-height: 24px;
                     font-size: 14px;
                     padding-bottom: 8px;
-                    color: #fff;
+                    color: $dark;
                     display: flex;
                     @include breakpoint(papabear) {
                         padding-bottom: 10px;
@@ -255,7 +255,7 @@ footer {
 
                     i {
                         font-size: 16px;
-                        color: var(--fl1-white);
+                        color: $dark;
                         width: 22px;
                         display: flex;
                         justify-content: center;
@@ -268,24 +268,15 @@ footer {
 
                     a {
                         font-size: 14px;
-                        color: #fff;
+                        color: $dark;
                         &:hover {
-                            color: var(--fl1-white);
+                            color: $orange;
                             opacity: 1;
                         }
                     }
                 }
             }
 
-            &.newsletter {
-                width: 50%;
-
-                @include breakpoint(papabear) {
-                    width: 100%;
-                    margin-top: 40px;
-                    border-bottom: none;
-                }
-            }
         }
     }
 
